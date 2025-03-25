@@ -5,6 +5,7 @@ using Bank.Application;
 using Bank.Application.Domain;
 using Bank.ExchangeService.Configurations;
 using Bank.ExchangeService.Database;
+using Bank.ExchangeService.HostedServices;
 
 using DotNetEnv;
 
@@ -83,6 +84,9 @@ public static class ServiceCollectionExtensions
 
     public static IServiceCollection AddHostedServices(this IServiceCollection services)
     {
+        services.AddSingleton<DatabaseHostedService>();
+        services.AddHostedService<ApplicationHostedService>();
+
         return services;
     }
 

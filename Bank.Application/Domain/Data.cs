@@ -57,3 +57,8 @@ public enum Profile
     Staging,
     Production
 }
+public enum ActuaryType
+{
+    Supervisor,
+    Agent
+}
