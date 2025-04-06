@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Bank.UserService.Authorization;
+using Bank.UserService.Security;
 
 namespace Bank.UserService.Security
 {
