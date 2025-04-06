@@ -36,7 +36,8 @@ public static partial class Example
                                                                    CreatedAt                  = Seeder.Employee.Employee02.CreatedAt,
                                                                    ModifiedAt                 = Seeder.Employee.Employee02.ModifiedAt,
                                                                    Employed                   = Seeder.Employee.Employee02.Employed,
-                                                                   Activated                  = Seeder.Employee.Employee02.Activated
+                                                                   Activated                  = Seeder.Employee.Employee02.Activated,
+                                                                   Permissions                = Seeder.Employee.Employee02.Permissions,
                                                                };
 
             public static readonly EmployeeModel UpdateEmployee = new()
@@ -58,7 +59,8 @@ public static partial class Example
                                                                       CreatedAt                  = Seeder.Employee.Employee03.CreatedAt,
                                                                       ModifiedAt                 = Seeder.Employee.Employee03.ModifiedAt,
                                                                       Employed                   = Seeder.Employee.Employee03.Employed,
-                                                                      Activated                  = Seeder.Employee.Employee03.Activated
+                                                                      Activated                  = Seeder.Employee.Employee03.Activated,
+                                                                      Permissions                   = Seeder.Employee.Employee03.Permissions
                                                                   };
         }
     }
